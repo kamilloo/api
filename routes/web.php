@@ -19,3 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
+Route::get('kohana/authorize', 'Kohana@oauthorize');
+
