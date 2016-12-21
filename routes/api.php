@@ -18,4 +18,5 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:api');
 
 Route::resource('pricing', 'Admin\PricingController');
+Route::resource('pricing-format', 'Admin\PricingFromatController');
 
